@@ -1,0 +1,11 @@
+server:
+  port: 8080
+  
+spring:
+  application:
+    name: zookeeper-leader-selector
+
+zookeeper:
+  server: localhost:2181
+  namespace: leaderselect
+  instance: numberone

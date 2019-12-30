@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  
+spring:
+  application:
+    name: zookeeper-common-oper
+
+zookeeper:
+  server: localhost:2181
+  namespace: commoper
